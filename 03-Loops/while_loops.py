@@ -2,7 +2,6 @@
 print("=== 1. BASIC WHILE LOOP ===")
 count = 1
 
-# Loop runs as long as count is less than or equal to 5
 while count <= 5:
     print(f"Count is: {count}")
     count += 1  # Increment (Must update variable to prevent infinite loop!)
