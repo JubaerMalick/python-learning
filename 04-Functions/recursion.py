@@ -33,7 +33,7 @@ print("\n=== 3. FIBONACCI SERIES USING RECURSION ===")
 # Fibonacci formula: fib(n) = fib(n-1) + fib(n-2)
 def fibonacci(n):
     # Base Cases
-    if n <= 0:
+    if n == 0:
         return 0
     elif n == 1:
         return 1
