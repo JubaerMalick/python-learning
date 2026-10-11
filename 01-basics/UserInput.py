@@ -1,0 +1,5 @@
+first_name = input("Enter your First name :")
+last_name = input("Enter your last name :")
+age = int(input("Enter your age : "))
+print(f"Yoyr full name is :{first_name} {last_name}")
+print(f"Your age is : {age}")
